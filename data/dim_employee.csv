@@ -1,0 +1,186 @@
+employee_id,name,department,designation,date_of_joining,exit_date,status,current_basic_salary,other_allowances
+EMP0001,Suresh Iyer,Finance,Financial Analyst,2023-05-10,,active,61500,1500
+EMP0002,Sneha Naidu,Finance,Financial Analyst,2025-10-17,,active,48000,2000
+EMP0003,Siddharth Joshi,Sales,Senior Sales Executive,2025-05-24,,active,46500,1500
+EMP0004,Sunita Bhat,Sales,Sales Executive,2023-10-07,,active,58500,0
+EMP0005,Neha Menon,Engineering,DevOps Engineer,2024-02-29,,active,72000,0
+EMP0006,Shreya Sharma,Engineering,QA Engineer,2024-12-13,,active,61500,1500
+EMP0007,Suresh Desai,Sales,Business Development Associate,2024-04-27,,active,55500,0
+EMP0008,Manoj Patil,Engineering,DevOps Engineer,2024-12-09,,active,41000,1000
+EMP0009,Kavya Nair,Marketing,Marketing Manager,2024-12-12,,active,36000,1500
+EMP0010,Divya Shetty,Operations,Operations Analyst,2024-02-07,2025-12-24,inactive,42000,1000
+EMP0011,Naveen Iyer,HR,HR Executive,2024-01-15,,active,36500,1000
+EMP0012,Deepika Pillai,Finance,Financial Analyst,2025-05-07,,active,54000,0
+EMP0013,Sanjay Reddy,Finance,Accounts Executive,2024-07-31,,active,48500,1000
+EMP0014,Neha Hegde,Sales,Sales Manager,2024-04-03,2025-09-09,inactive,40500,2000
+EMP0015,Preethi Bose,Operations,Operations Manager,2025-03-29,,active,37000,0
+EMP0016,Sneha Verma,Engineering,QA Engineer,2023-10-17,,active,80500,0
+EMP0017,Abhishek Bhat,HR,HR Executive,2024-11-07,,active,46500,1500
+EMP0018,Deepika Reddy,Engineering,DevOps Engineer,2024-03-04,,active,45000,0
+EMP0019,Ananya Bose,Operations,Operations Manager,2024-03-20,,active,52500,0
+EMP0020,Nisha Iyer,Support,Senior Support Associate,2024-07-20,,active,38000,2500
+EMP0021,Ganesh Bose,Marketing,SEO Specialist,2024-08-15,,active,39500,2000
+EMP0022,Nikhil Shetty,Support,Support Associate,2023-06-04,,active,28000,1500
+EMP0023,Shreya Nair,Finance,Accounts Executive,2025-09-27,,active,57500,1000
+EMP0024,Ganesh Desai,Sales,Sales Executive,2024-02-20,,active,55500,1000
+EMP0025,Rahul Reddy,Engineering,Senior Software Engineer,2023-01-24,,active,83500,2000
+EMP0026,Rohan Naidu,Finance,Finance Manager,2024-02-19,,active,63000,1000
+EMP0027,Aishwarya Gupta,Engineering,DevOps Engineer,2025-11-05,,active,72000,0
+EMP0028,Sanjay Joshi,Engineering,Engineering Manager,2023-10-09,,active,66000,2500
+EMP0029,Vikram Reddy,Marketing,Content Strategist,2023-07-12,,active,30500,0
+EMP0030,Neha Pillai,Marketing,Marketing Manager,2025-04-26,,active,45500,1500
+EMP0031,Sneha Iyer,Engineering,QA Engineer,2024-02-04,,active,82500,2500
+EMP0032,Padma Shetty,Sales,Business Development Associate,2024-11-12,,active,30000,0
+EMP0033,Sunita Reddy,Sales,Sales Executive,2025-04-26,,active,47500,1500
+EMP0034,Rohan Gupta,Engineering,DevOps Engineer,2023-11-22,,active,76000,1500
+EMP0035,Anjali Nair,HR,HR Manager,2024-05-30,,active,40000,2000
+EMP0036,Kavya Bose,Sales,Sales Manager,2025-05-10,,active,38500,0
+EMP0037,Vikram Kumar,Operations,Operations Analyst,2023-07-30,,active,49000,0
+EMP0038,Vivek Rao,Engineering,Software Engineer,2023-02-19,,active,49500,1000
+EMP0039,Naveen Kumar,Operations,Operations Executive,2024-08-03,,active,39500,0
+EMP0040,Siddharth Sharma,Engineering,Engineering Manager,2024-09-23,,active,54500,1000
+EMP0041,Divya Desai,Marketing,Marketing Associate,2023-02-10,,active,35000,2000
+EMP0042,Shreya Desai,Support,Support Associate,2025-03-29,,active,45000,0
+EMP0043,Sunita Joshi,Marketing,Marketing Manager,2024-06-30,,active,44000,0
+EMP0044,Ananya Pillai,Engineering,DevOps Engineer,2023-11-22,,active,62000,0
+EMP0045,Siddharth Gupta,Sales,Senior Sales Executive,2025-12-01,,active,50000,0
+EMP0046,Nisha Bhat,Marketing,Content Strategist,2025-04-26,,active,53500,0
+EMP0047,Harish Bhat,Finance,Financial Analyst,2025-07-05,,active,42000,0
+EMP0048,Swathi Kulkarni,Finance,Financial Analyst,2023-07-20,,active,37500,1000
+EMP0049,Padma Kulkarni,Finance,Finance Manager,2023-12-15,,active,58500,1500
+EMP0050,Asha Shetty,Engineering,Software Engineer,2024-07-03,,active,64500,1500
+EMP0051,Sneha Kulkarni,Marketing,Marketing Manager,2023-06-22,,active,46000,1500
+EMP0052,Meera Bhat,Sales,Sales Executive,2024-03-07,,active,53000,0
+EMP0053,Nikhil Reddy,Sales,Business Development Associate,2023-08-04,,active,40500,1000
+EMP0054,Ravi Kulkarni,Finance,Financial Analyst,2025-03-30,,active,50500,2500
+EMP0055,Suresh Nair,Finance,Financial Analyst,2025-06-21,,active,67000,1000
+EMP0056,Divya Verma,Operations,Operations Executive,2025-05-21,,active,29000,1000
+EMP0057,Divya Patil,Sales,Senior Sales Executive,2023-06-07,,active,60000,0
+EMP0058,Prakash Bose,HR,HR Manager,2024-12-10,,active,33000,2000
+EMP0059,Lakshmi Nair,Engineering,Software Engineer,2025-03-27,,active,54500,1500
+EMP0060,Vikram Iyer,Engineering,Engineering Manager,2024-10-20,,active,40500,2000
+EMP0061,Sunita Kulkarni,Engineering,Senior Software Engineer,2025-03-22,,active,74500,0
+EMP0062,Neha Naidu,Engineering,Engineering Manager,2025-02-22,,active,50000,0
+EMP0063,Asha Gupta,Finance,Finance Manager,2025-01-19,,active,41500,0
+EMP0064,Meera Joshi,Operations,Operations Analyst,2025-01-18,,active,31000,0
+EMP0065,Vivek Patil,Support,Support Associate,2024-11-15,,active,32500,2500
+EMP0066,Swathi Bhat,Sales,Sales Executive,2024-11-25,,active,47000,1000
+EMP0067,Sneha Nair,Sales,Sales Executive,2023-07-15,,active,44500,1000
+EMP0068,Sunita Pillai,Operations,Operations Executive,2024-05-16,,active,44000,0
+EMP0069,Ganesh Verma,Engineering,QA Engineer,2023-11-14,,active,60000,1500
+EMP0070,Anjali Kumar,Operations,Operations Analyst,2025-04-07,,active,44500,1500
+EMP0071,Yamini Gowda,Sales,Senior Sales Executive,2025-08-11,,active,45000,1000
+EMP0072,Rajesh Desai,Finance,Financial Analyst,2024-07-26,,active,45000,2000
+EMP0073,Ramya Kumar,Engineering,Software Engineer,2023-09-09,,active,56000,0
+EMP0074,Deepika Menon,HR,HR Manager,2023-08-13,,active,51000,1000
+EMP0075,Lakshmi Patil,Support,Support Associate,2024-02-14,,active,46500,1000
+EMP0076,Prakash Sharma,Operations,Operations Manager,2024-08-19,,active,29000,2000
+EMP0077,Vivek Desai,Support,Support Team Lead,2023-07-26,,active,39500,1000
+EMP0078,Abhishek Verma,Engineering,Engineering Manager,2023-08-09,,active,60500,2000
+EMP0079,Siddharth Reddy,Engineering,DevOps Engineer,2024-10-05,,active,56000,0
+EMP0080,Bhavana Shetty,Engineering,Engineering Manager,2024-12-14,,active,67500,0
+EMP0081,Bhavana Kumar,Sales,Sales Manager,2025-03-18,,active,41000,1000
+EMP0082,Harish Menon,Support,Support Associate,2024-07-29,,active,40000,0
+EMP0083,Girish Menon,Sales,Business Development Associate,2024-03-13,,active,48500,0
+EMP0084,Harish Shetty,Support,Support Team Lead,2024-01-11,,active,30500,1500
+EMP0085,Kiran Bose,Support,Support Team Lead,2025-09-06,,active,33000,2500
+EMP0086,Sathish Naidu,Finance,Financial Analyst,2024-06-11,,active,39000,1500
+EMP0087,Ashok Desai,Support,Support Associate,2025-02-27,,active,30500,0
+EMP0088,Preethi Joshi,Engineering,QA Engineer,2024-07-02,,active,62000,1000
+EMP0089,Divya Naidu,Finance,Financial Analyst,2025-10-13,,active,51000,0
+EMP0090,Priya Kulkarni,Sales,Business Development Associate,2025-01-22,,active,34500,2000
+EMP0091,Yamini Kulkarni,Finance,Financial Analyst,2024-11-02,,active,36000,0
+EMP0092,Prakash Patil,Marketing,Content Strategist,2025-08-25,,active,32000,0
+EMP0093,Manish Kulkarni,HR,Talent Acquisition Specialist,2024-10-08,,active,51000,0
+EMP0094,Rahul Bhat,Support,Support Team Lead,2025-01-26,,active,26500,2500
+EMP0095,Deepika Nair,Sales,Business Development Associate,2026-05-29,,active,35500,1000
+EMP0096,Nisha Nair,Support,Support Associate,2023-03-17,,active,27500,0
+EMP0097,Kiran Pillai,Sales,Business Development Associate,2025-12-25,,active,41500,1000
+EMP0098,Chitra Shetty,Sales,Senior Sales Executive,2025-09-15,,active,38500,1000
+EMP0099,Bhavana Sharma,Operations,Operations Manager,2024-02-26,,active,37500,0
+EMP0100,Harish Patil,Marketing,Marketing Manager,2024-06-10,,active,51500,1500
+EMP0101,Girish Verma,HR,HR Manager,2024-09-16,,active,48500,1500
+EMP0102,Rajesh Nair,Support,Support Team Lead,2025-12-27,,active,32000,0
+EMP0103,Arjun Gupta,Engineering,QA Engineer,2024-02-16,2025-09-07,inactive,61000,1000
+EMP0104,Neha Bose,Engineering,Engineering Manager,2024-05-03,,active,53500,0
+EMP0105,Sathish Nair,Engineering,QA Engineer,2024-07-22,,active,39000,1000
+EMP0106,Shreya Shetty,Finance,Financial Analyst,2024-07-14,,active,43500,0
+EMP0107,Padma Verma,Sales,Sales Executive,2025-01-20,,active,31500,0
+EMP0108,Padma Reddy,Support,Support Associate,2022-12-15,,active,23500,0
+EMP0109,Neha Desai,Marketing,SEO Specialist,2022-08-17,,active,46000,0
+EMP0110,Pooja Gupta,Finance,Financial Analyst,2025-10-02,,active,61000,1000
+EMP0111,Rohan Hegde,HR,HR Manager,2023-11-03,,active,38000,0
+EMP0112,Manish Gowda,Engineering,DevOps Engineer,2025-02-02,,active,42500,1500
+EMP0113,Chitra Sharma,Sales,Sales Executive,2023-07-29,,active,47500,0
+EMP0114,Ashok Kulkarni,Marketing,Marketing Associate,2026-04-24,,active,29500,0
+EMP0115,Chitra Reddy,Support,Support Associate,2024-01-06,2026-02-14,inactive,33500,0
+EMP0116,Harish Reddy,Operations,Operations Manager,2025-07-23,,active,29500,1500
+EMP0117,Varun Naidu,Marketing,SEO Specialist,2024-09-20,,active,48000,2500
+EMP0118,Rajesh Rao,Sales,Business Development Associate,2024-08-15,,active,29000,0
+EMP0119,Varun Verma,Support,Senior Support Associate,2025-12-31,,active,36000,0
+EMP0120,Girish Kumar,HR,HR Manager,2025-02-10,,active,36000,1000
+EMP0121,Abhishek Naidu,Marketing,Marketing Associate,2024-09-22,,active,49500,2000
+EMP0122,Asha Sharma,Finance,Finance Manager,2025-02-20,2026-06-23,inactive,38500,1500
+EMP0123,Kiran Kumar,Support,Senior Support Associate,2024-10-23,,active,31500,1500
+EMP0124,Arjun Reddy,Support,Senior Support Associate,2024-04-17,,active,32500,0
+EMP0125,Karthik Bose,Operations,Operations Executive,2023-12-04,,active,38500,2000
+EMP0126,Ganesh Naidu,Engineering,DevOps Engineer,2024-07-05,,active,53000,1000
+EMP0127,Prakash Verma,Support,Support Associate,2023-06-08,,active,35500,1500
+EMP0128,Rohan Bose,HR,HR Executive,2026-03-05,,active,53000,0
+EMP0129,Bhavana Gowda,Sales,Sales Executive,2024-09-01,,active,34000,0
+EMP0130,Bhavana Naidu,Engineering,Software Engineer,2024-01-30,,active,65500,1000
+EMP0131,Preethi Hegde,Finance,Accounts Executive,2023-06-24,,active,42000,0
+EMP0132,Bhavana Bhat,Engineering,Software Engineer,2024-06-20,,active,52500,1500
+EMP0133,Swathi Gowda,HR,Talent Acquisition Specialist,2023-12-06,,active,38500,2000
+EMP0134,Pooja Verma,Finance,Finance Manager,2024-08-22,,active,50000,0
+EMP0135,Naveen Bose,Engineering,QA Engineer,2023-08-27,,active,85000,0
+EMP0136,Vikram Kulkarni,Engineering,Senior Software Engineer,2024-02-25,,active,49500,1000
+EMP0137,Vikram Desai,Marketing,Content Strategist,2025-02-18,,active,37500,2500
+EMP0138,Padma Kumar,Sales,Sales Executive,2025-04-15,,active,32000,1500
+EMP0139,Swathi Pillai,Engineering,DevOps Engineer,2024-11-17,2026-06-27,inactive,82500,0
+EMP0140,Suresh Reddy,Sales,Senior Sales Executive,2024-11-11,,active,35500,0
+EMP0141,Ganesh Bhat,Finance,Finance Manager,2024-07-08,,active,54000,0
+EMP0142,Prakash Shetty,Engineering,Software Engineer,2024-06-19,,active,77000,1500
+EMP0143,Swathi Reddy,Support,Senior Support Associate,2025-11-28,,active,36000,1500
+EMP0144,Ramya Shetty,Sales,Business Development Associate,2025-09-12,,active,51000,1500
+EMP0145,Deepika Gupta,Sales,Sales Manager,2023-05-05,,active,43500,1500
+EMP0146,Asha Desai,Operations,Operations Executive,2025-03-28,,active,38000,0
+EMP0147,Sneha Patil,Operations,Operations Executive,2024-01-17,,active,37000,2000
+EMP0148,Ravi Shetty,Engineering,Engineering Manager,2023-12-17,,active,70000,0
+EMP0149,Karthik Naidu,Support,Senior Support Associate,2025-07-25,,active,36000,2500
+EMP0150,Sanjay Verma,HR,Talent Acquisition Specialist,2024-11-11,,active,38000,2000
+EMP0151,Padma Bose,Support,Support Associate,2025-02-22,,active,39500,1000
+EMP0152,Anjali Hegde,Sales,Business Development Associate,2024-01-23,,active,39000,0
+EMP0153,Ramya Reddy,HR,Talent Acquisition Specialist,2022-09-05,,active,51000,2000
+EMP0154,Preethi Nair,Engineering,DevOps Engineer,2026-06-10,,active,49500,0
+EMP0155,Anjali Gupta,Sales,Senior Sales Executive,2023-03-23,,active,61000,1500
+EMP0156,Chitra Verma,Engineering,QA Engineer,2025-05-30,,active,68500,1000
+EMP0157,Rajesh Patil,Marketing,Marketing Associate,2026-04-18,,active,48500,1000
+EMP0158,Divya Kumar,Engineering,DevOps Engineer,2024-06-29,,active,88000,0
+EMP0159,Manish Bhat,Operations,Operations Manager,2025-05-16,,active,47500,0
+EMP0160,Yamini Sharma,Finance,Finance Manager,2023-07-30,,active,49000,0
+EMP0161,Swathi Naidu,Engineering,Senior Software Engineer,2022-06-26,,active,47000,0
+EMP0162,Manish Reddy,Operations,Operations Manager,2023-08-03,,active,49000,1000
+EMP0163,Suresh Menon,HR,HR Manager,2025-02-15,,active,32500,1000
+EMP0164,Ganesh Pillai,Finance,Finance Manager,2023-10-24,,active,46000,0
+EMP0165,Ananya Rao,Engineering,Senior Software Engineer,2024-05-06,,active,52000,0
+EMP0166,Lakshmi Reddy,Operations,Operations Executive,2026-02-09,,active,39500,0
+EMP0167,Sowmya Gupta,Engineering,QA Engineer,2024-09-19,,active,56000,2000
+EMP0168,Karthik Kulkarni,Finance,Financial Analyst,2024-07-19,,active,36000,1000
+EMP0169,Naveen Reddy,Finance,Accounts Executive,2024-01-03,,active,51000,0
+EMP0170,Prakash Menon,Marketing,SEO Specialist,2023-10-29,,active,33500,1500
+EMP0171,Chitra Desai,Engineering,Engineering Manager,2025-11-03,2026-05-14,inactive,61500,1000
+EMP0172,Prakash Joshi,Engineering,Senior Software Engineer,2023-10-22,,active,53500,0
+EMP0173,Sathish Kumar,Engineering,DevOps Engineer,2023-02-18,,active,57000,0
+EMP0174,Meera Rao,Operations,Operations Analyst,2023-05-20,,active,51000,0
+EMP0175,Sneha Bose,Operations,Operations Analyst,2025-05-14,,active,50000,2500
+EMP0176,Deepika Verma,Engineering,Senior Software Engineer,2024-09-27,,active,57000,0
+EMP0177,Nisha Gupta,Support,Support Associate,2024-04-21,,active,33000,1000
+EMP0178,Shreya Bose,Engineering,DevOps Engineer,2025-07-12,,active,53000,1000
+EMP0179,Padma Desai,Sales,Senior Sales Executive,2024-04-30,,active,48500,1000
+EMP0180,Ganesh Menon,Marketing,Content Strategist,2024-02-24,,active,47500,1000
+EMP0181,Varun Joshi,Engineering,Senior Software Engineer,2024-09-17,,active,71000,0
+EMP0182,Padma Nair,HR,HR Manager,2023-02-12,,active,43500,1000
+EMP0183,Ramya Hegde,Support,Support Team Lead,2024-12-23,,active,23000,0
+EMP0184,Manoj Kulkarni,Finance,Accounts Executive,2025-07-30,,active,49500,1000
+EMP0185,Ananya Nair,Engineering,DevOps Engineer,2024-08-28,,active,73000,2500

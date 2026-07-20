@@ -1,0 +1,186 @@
+employeeId,name,email,phone,department,designation,dateOfJoining,exitDate,status,basicSalary,daPercent,hraPercent,otherAllowances,pfPercent,professionalTax
+EMP0001,Suresh Iyer,suresh.iyer1@example.com,9727631225,Finance,Financial Analyst,2023-05-10,,active,61500,12,10,1500,12,200
+EMP0002,Sneha Naidu,sneha.naidu2@example.com,9433718221,Finance,Financial Analyst,2025-10-17,,active,48000,12,10,2000,12,200
+EMP0003,Siddharth Joshi,siddharth.joshi3@example.com,9157435530,Sales,Senior Sales Executive,2025-05-24,,active,46500,12,10,1500,12,200
+EMP0004,Sunita Bhat,sunita.bhat4@example.com,9800545146,Sales,Sales Executive,2023-10-07,,active,58500,12,10,0,12,200
+EMP0005,Neha Menon,neha.menon5@example.com,9168708867,Engineering,DevOps Engineer,2024-02-29,,active,72000,12,10,0,12,200
+EMP0006,Shreya Sharma,shreya.sharma6@example.com,9244619345,Engineering,QA Engineer,2024-12-13,,active,61500,12,10,1500,12,200
+EMP0007,Suresh Desai,suresh.desai7@example.com,9315602005,Sales,Business Development Associate,2024-04-27,,active,55500,12,10,0,12,200
+EMP0008,Manoj Patil,manoj.patil8@example.com,9349409462,Engineering,DevOps Engineer,2024-12-09,,active,41000,12,10,1000,12,200
+EMP0009,Kavya Nair,kavya.nair9@example.com,9869572005,Marketing,Marketing Manager,2024-12-12,,active,36000,12,10,1500,12,200
+EMP0010,Divya Shetty,divya.shetty10@example.com,9984464553,Operations,Operations Analyst,2024-02-07,2025-12-24,inactive,42000,12,10,1000,12,200
+EMP0011,Naveen Iyer,naveen.iyer11@example.com,9490885124,HR,HR Executive,2024-01-15,,active,36500,12,10,1000,12,200
+EMP0012,Deepika Pillai,deepika.pillai12@example.com,9400862297,Finance,Financial Analyst,2025-05-07,,active,54000,12,10,0,12,200
+EMP0013,Sanjay Reddy,sanjay.reddy13@example.com,9547597067,Finance,Accounts Executive,2024-07-31,,active,48500,12,10,1000,12,200
+EMP0014,Neha Hegde,neha.hegde14@example.com,9405049424,Sales,Sales Manager,2024-04-03,2025-09-09,inactive,40500,12,10,2000,12,200
+EMP0015,Preethi Bose,preethi.bose15@example.com,9810105905,Operations,Operations Manager,2025-03-29,,active,37000,12,10,0,12,200
+EMP0016,Sneha Verma,sneha.verma16@example.com,9621297611,Engineering,QA Engineer,2023-10-17,,active,80500,12,10,0,12,200
+EMP0017,Abhishek Bhat,abhishek.bhat17@example.com,9488883735,HR,HR Executive,2024-11-07,,active,46500,12,10,1500,12,200
+EMP0018,Deepika Reddy,deepika.reddy18@example.com,9544591736,Engineering,DevOps Engineer,2024-03-04,,active,45000,12,10,0,12,200
+EMP0019,Ananya Bose,ananya.bose19@example.com,9622955024,Operations,Operations Manager,2024-03-20,,active,52500,12,10,0,12,200
+EMP0020,Nisha Iyer,nisha.iyer20@example.com,9174456999,Support,Senior Support Associate,2024-07-20,,active,38000,12,10,2500,12,200
+EMP0021,Ganesh Bose,ganesh.bose21@example.com,9356103062,Marketing,SEO Specialist,2024-08-15,,active,39500,12,10,2000,12,200
+EMP0022,Nikhil Shetty,nikhil.shetty22@example.com,9206986826,Support,Support Associate,2023-06-04,,active,28000,12,10,1500,12,200
+EMP0023,Shreya Nair,shreya.nair23@example.com,9312809895,Finance,Accounts Executive,2025-09-27,,active,57500,12,10,1000,12,200
+EMP0024,Ganesh Desai,ganesh.desai24@example.com,9671347978,Sales,Sales Executive,2024-02-20,,active,55500,12,10,1000,12,200
+EMP0025,Rahul Reddy,rahul.reddy25@example.com,9972435977,Engineering,Senior Software Engineer,2023-01-24,,active,83500,12,10,2000,12,200
+EMP0026,Rohan Naidu,rohan.naidu26@example.com,9402025286,Finance,Finance Manager,2024-02-19,,active,63000,12,10,1000,12,200
+EMP0027,Aishwarya Gupta,aishwarya.gupta27@example.com,9160878576,Engineering,DevOps Engineer,2025-11-05,,active,72000,12,10,0,12,200
+EMP0028,Sanjay Joshi,sanjay.joshi28@example.com,9799664353,Engineering,Engineering Manager,2023-10-09,,active,66000,12,10,2500,12,200
+EMP0029,Vikram Reddy,vikram.reddy29@example.com,9306690426,Marketing,Content Strategist,2023-07-12,,active,30500,12,10,0,12,200
+EMP0030,Neha Pillai,neha.pillai30@example.com,9279798086,Marketing,Marketing Manager,2025-04-26,,active,45500,12,10,1500,12,200
+EMP0031,Sneha Iyer,sneha.iyer31@example.com,9696577790,Engineering,QA Engineer,2024-02-04,,active,82500,12,10,2500,12,200
+EMP0032,Padma Shetty,padma.shetty32@example.com,9599678237,Sales,Business Development Associate,2024-11-12,,active,30000,12,10,0,12,200
+EMP0033,Sunita Reddy,sunita.reddy33@example.com,9939720898,Sales,Sales Executive,2025-04-26,,active,47500,12,10,1500,12,200
+EMP0034,Rohan Gupta,rohan.gupta34@example.com,9817135378,Engineering,DevOps Engineer,2023-11-22,,active,76000,12,10,1500,12,200
+EMP0035,Anjali Nair,anjali.nair35@example.com,9436765638,HR,HR Manager,2024-05-30,,active,40000,12,10,2000,12,200
+EMP0036,Kavya Bose,kavya.bose36@example.com,9771412851,Sales,Sales Manager,2025-05-10,,active,38500,12,10,0,12,200
+EMP0037,Vikram Kumar,vikram.kumar37@example.com,9638703676,Operations,Operations Analyst,2023-07-30,,active,49000,12,10,0,12,200
+EMP0038,Vivek Rao,vivek.rao38@example.com,9847894681,Engineering,Software Engineer,2023-02-19,,active,49500,12,10,1000,12,200
+EMP0039,Naveen Kumar,naveen.kumar39@example.com,9813386119,Operations,Operations Executive,2024-08-03,,active,39500,12,10,0,12,200
+EMP0040,Siddharth Sharma,siddharth.sharma40@example.com,9354050346,Engineering,Engineering Manager,2024-09-23,,active,54500,12,10,1000,12,200
+EMP0041,Divya Desai,divya.desai41@example.com,9720445038,Marketing,Marketing Associate,2023-02-10,,active,35000,12,10,2000,12,200
+EMP0042,Shreya Desai,shreya.desai42@example.com,9654655682,Support,Support Associate,2025-03-29,,active,45000,12,10,0,12,200
+EMP0043,Sunita Joshi,sunita.joshi43@example.com,9717548932,Marketing,Marketing Manager,2024-06-30,,active,44000,12,10,0,12,200
+EMP0044,Ananya Pillai,ananya.pillai44@example.com,9554548498,Engineering,DevOps Engineer,2023-11-22,,active,62000,12,10,0,12,200
+EMP0045,Siddharth Gupta,siddharth.gupta45@example.com,9868771568,Sales,Senior Sales Executive,2025-12-01,,active,50000,12,10,0,12,200
+EMP0046,Nisha Bhat,nisha.bhat46@example.com,9789655172,Marketing,Content Strategist,2025-04-26,,active,53500,12,10,0,12,200
+EMP0047,Harish Bhat,harish.bhat47@example.com,9957259982,Finance,Financial Analyst,2025-07-05,,active,42000,12,10,0,12,200
+EMP0048,Swathi Kulkarni,swathi.kulkarni48@example.com,9252455974,Finance,Financial Analyst,2023-07-20,,active,37500,12,10,1000,12,200
+EMP0049,Padma Kulkarni,padma.kulkarni49@example.com,9145131554,Finance,Finance Manager,2023-12-15,,active,58500,12,10,1500,12,200
+EMP0050,Asha Shetty,asha.shetty50@example.com,9754973879,Engineering,Software Engineer,2024-07-03,,active,64500,12,10,1500,12,200
+EMP0051,Sneha Kulkarni,sneha.kulkarni51@example.com,9749102669,Marketing,Marketing Manager,2023-06-22,,active,46000,12,10,1500,12,200
+EMP0052,Meera Bhat,meera.bhat52@example.com,9835402855,Sales,Sales Executive,2024-03-07,,active,53000,12,10,0,12,200
+EMP0053,Nikhil Reddy,nikhil.reddy53@example.com,9599511849,Sales,Business Development Associate,2023-08-04,,active,40500,12,10,1000,12,200
+EMP0054,Ravi Kulkarni,ravi.kulkarni54@example.com,9225935304,Finance,Financial Analyst,2025-03-30,,active,50500,12,10,2500,12,200
+EMP0055,Suresh Nair,suresh.nair55@example.com,9210466443,Finance,Financial Analyst,2025-06-21,,active,67000,12,10,1000,12,200
+EMP0056,Divya Verma,divya.verma56@example.com,9971479312,Operations,Operations Executive,2025-05-21,,active,29000,12,10,1000,12,200
+EMP0057,Divya Patil,divya.patil57@example.com,9139753907,Sales,Senior Sales Executive,2023-06-07,,active,60000,12,10,0,12,200
+EMP0058,Prakash Bose,prakash.bose58@example.com,9660983383,HR,HR Manager,2024-12-10,,active,33000,12,10,2000,12,200
+EMP0059,Lakshmi Nair,lakshmi.nair59@example.com,9113115326,Engineering,Software Engineer,2025-03-27,,active,54500,12,10,1500,12,200
+EMP0060,Vikram Iyer,vikram.iyer60@example.com,9966869114,Engineering,Engineering Manager,2024-10-20,,active,40500,12,10,2000,12,200
+EMP0061,Sunita Kulkarni,sunita.kulkarni61@example.com,9837819731,Engineering,Senior Software Engineer,2025-03-22,,active,74500,12,10,0,12,200
+EMP0062,Neha Naidu,neha.naidu62@example.com,9177422028,Engineering,Engineering Manager,2025-02-22,,active,50000,12,10,0,12,200
+EMP0063,Asha Gupta,asha.gupta63@example.com,9774481662,Finance,Finance Manager,2025-01-19,,active,41500,12,10,0,12,200
+EMP0064,Meera Joshi,meera.joshi64@example.com,9434040868,Operations,Operations Analyst,2025-01-18,,active,31000,12,10,0,12,200
+EMP0065,Vivek Patil,vivek.patil65@example.com,9501886042,Support,Support Associate,2024-11-15,,active,32500,12,10,2500,12,200
+EMP0066,Swathi Bhat,swathi.bhat66@example.com,9242130510,Sales,Sales Executive,2024-11-25,,active,47000,12,10,1000,12,200
+EMP0067,Sneha Nair,sneha.nair67@example.com,9184068310,Sales,Sales Executive,2023-07-15,,active,44500,12,10,1000,12,200
+EMP0068,Sunita Pillai,sunita.pillai68@example.com,9954228422,Operations,Operations Executive,2024-05-16,,active,44000,12,10,0,12,200
+EMP0069,Ganesh Verma,ganesh.verma69@example.com,9415781835,Engineering,QA Engineer,2023-11-14,,active,60000,12,10,1500,12,200
+EMP0070,Anjali Kumar,anjali.kumar70@example.com,9277275771,Operations,Operations Analyst,2025-04-07,,active,44500,12,10,1500,12,200
+EMP0071,Yamini Gowda,yamini.gowda71@example.com,9865203424,Sales,Senior Sales Executive,2025-08-11,,active,45000,12,10,1000,12,200
+EMP0072,Rajesh Desai,rajesh.desai72@example.com,9150352588,Finance,Financial Analyst,2024-07-26,,active,45000,12,10,2000,12,200
+EMP0073,Ramya Kumar,ramya.kumar73@example.com,9159886738,Engineering,Software Engineer,2023-09-09,,active,56000,12,10,0,12,200
+EMP0074,Deepika Menon,deepika.menon74@example.com,9701609155,HR,HR Manager,2023-08-13,,active,51000,12,10,1000,12,200
+EMP0075,Lakshmi Patil,lakshmi.patil75@example.com,9229652183,Support,Support Associate,2024-02-14,,active,46500,12,10,1000,12,200
+EMP0076,Prakash Sharma,prakash.sharma76@example.com,9249316180,Operations,Operations Manager,2024-08-19,,active,29000,12,10,2000,12,200
+EMP0077,Vivek Desai,vivek.desai77@example.com,9991289496,Support,Support Team Lead,2023-07-26,,active,39500,12,10,1000,12,200
+EMP0078,Abhishek Verma,abhishek.verma78@example.com,9522394240,Engineering,Engineering Manager,2023-08-09,,active,60500,12,10,2000,12,200
+EMP0079,Siddharth Reddy,siddharth.reddy79@example.com,9541177787,Engineering,DevOps Engineer,2024-10-05,,active,56000,12,10,0,12,200
+EMP0080,Bhavana Shetty,bhavana.shetty80@example.com,9684234144,Engineering,Engineering Manager,2024-12-14,,active,67500,12,10,0,12,200
+EMP0081,Bhavana Kumar,bhavana.kumar81@example.com,9534315257,Sales,Sales Manager,2025-03-18,,active,41000,12,10,1000,12,200
+EMP0082,Harish Menon,harish.menon82@example.com,9406531715,Support,Support Associate,2024-07-29,,active,40000,12,10,0,12,200
+EMP0083,Girish Menon,girish.menon83@example.com,9259755923,Sales,Business Development Associate,2024-03-13,,active,48500,12,10,0,12,200
+EMP0084,Harish Shetty,harish.shetty84@example.com,9106583010,Support,Support Team Lead,2024-01-11,,active,30500,12,10,1500,12,200
+EMP0085,Kiran Bose,kiran.bose85@example.com,9785289305,Support,Support Team Lead,2025-09-06,,active,33000,12,10,2500,12,200
+EMP0086,Sathish Naidu,sathish.naidu86@example.com,9759172151,Finance,Financial Analyst,2024-06-11,,active,39000,12,10,1500,12,200
+EMP0087,Ashok Desai,ashok.desai87@example.com,9760378146,Support,Support Associate,2025-02-27,,active,30500,12,10,0,12,200
+EMP0088,Preethi Joshi,preethi.joshi88@example.com,9986986151,Engineering,QA Engineer,2024-07-02,,active,62000,12,10,1000,12,200
+EMP0089,Divya Naidu,divya.naidu89@example.com,9821853807,Finance,Financial Analyst,2025-10-13,,active,51000,12,10,0,12,200
+EMP0090,Priya Kulkarni,priya.kulkarni90@example.com,9707775064,Sales,Business Development Associate,2025-01-22,,active,34500,12,10,2000,12,200
+EMP0091,Yamini Kulkarni,yamini.kulkarni91@example.com,9311081634,Finance,Financial Analyst,2024-11-02,,active,36000,12,10,0,12,200
+EMP0092,Prakash Patil,prakash.patil92@example.com,9461220001,Marketing,Content Strategist,2025-08-25,,active,32000,12,10,0,12,200
+EMP0093,Manish Kulkarni,manish.kulkarni93@example.com,9369049285,HR,Talent Acquisition Specialist,2024-10-08,,active,51000,12,10,0,12,200
+EMP0094,Rahul Bhat,rahul.bhat94@example.com,9407734244,Support,Support Team Lead,2025-01-26,,active,26500,12,10,2500,12,200
+EMP0095,Deepika Nair,deepika.nair95@example.com,9635691555,Sales,Business Development Associate,2026-05-29,,active,35500,12,10,1000,12,200
+EMP0096,Nisha Nair,nisha.nair96@example.com,9428840616,Support,Support Associate,2023-03-17,,active,27500,12,10,0,12,200
+EMP0097,Kiran Pillai,kiran.pillai97@example.com,9478343593,Sales,Business Development Associate,2025-12-25,,active,41500,12,10,1000,12,200
+EMP0098,Chitra Shetty,chitra.shetty98@example.com,9985593100,Sales,Senior Sales Executive,2025-09-15,,active,38500,12,10,1000,12,200
+EMP0099,Bhavana Sharma,bhavana.sharma99@example.com,9412313996,Operations,Operations Manager,2024-02-26,,active,37500,12,10,0,12,200
+EMP0100,Harish Patil,harish.patil100@example.com,9995231572,Marketing,Marketing Manager,2024-06-10,,active,51500,12,10,1500,12,200
+EMP0101,Girish Verma,girish.verma101@example.com,9266661410,HR,HR Manager,2024-09-16,,active,48500,12,10,1500,12,200
+EMP0102,Rajesh Nair,rajesh.nair102@example.com,9132258476,Support,Support Team Lead,2025-12-27,,active,32000,12,10,0,12,200
+EMP0103,Arjun Gupta,arjun.gupta103@example.com,9564479020,Engineering,QA Engineer,2024-02-16,2025-09-07,inactive,61000,12,10,1000,12,200
+EMP0104,Neha Bose,neha.bose104@example.com,9371864411,Engineering,Engineering Manager,2024-05-03,,active,53500,12,10,0,12,200
+EMP0105,Sathish Nair,sathish.nair105@example.com,9557350619,Engineering,QA Engineer,2024-07-22,,active,39000,12,10,1000,12,200
+EMP0106,Shreya Shetty,shreya.shetty106@example.com,9318234567,Finance,Financial Analyst,2024-07-14,,active,43500,12,10,0,12,200
+EMP0107,Padma Verma,padma.verma107@example.com,9643235110,Sales,Sales Executive,2025-01-20,,active,31500,12,10,0,12,200
+EMP0108,Padma Reddy,padma.reddy108@example.com,9735636535,Support,Support Associate,2022-12-15,,active,23500,12,10,0,12,200
+EMP0109,Neha Desai,neha.desai109@example.com,9579925871,Marketing,SEO Specialist,2022-08-17,,active,46000,12,10,0,12,200
+EMP0110,Pooja Gupta,pooja.gupta110@example.com,9918488780,Finance,Financial Analyst,2025-10-02,,active,61000,12,10,1000,12,200
+EMP0111,Rohan Hegde,rohan.hegde111@example.com,9385872070,HR,HR Manager,2023-11-03,,active,38000,12,10,0,12,200
+EMP0112,Manish Gowda,manish.gowda112@example.com,9248938981,Engineering,DevOps Engineer,2025-02-02,,active,42500,12,10,1500,12,200
+EMP0113,Chitra Sharma,chitra.sharma113@example.com,9213423707,Sales,Sales Executive,2023-07-29,,active,47500,12,10,0,12,200
+EMP0114,Ashok Kulkarni,ashok.kulkarni114@example.com,9114921821,Marketing,Marketing Associate,2026-04-24,,active,29500,12,10,0,12,200
+EMP0115,Chitra Reddy,chitra.reddy115@example.com,9659612826,Support,Support Associate,2024-01-06,2026-02-14,inactive,33500,12,10,0,12,200
+EMP0116,Harish Reddy,harish.reddy116@example.com,9308152485,Operations,Operations Manager,2025-07-23,,active,29500,12,10,1500,12,200
+EMP0117,Varun Naidu,varun.naidu117@example.com,9753192670,Marketing,SEO Specialist,2024-09-20,,active,48000,12,10,2500,12,200
+EMP0118,Rajesh Rao,rajesh.rao118@example.com,9816425699,Sales,Business Development Associate,2024-08-15,,active,29000,12,10,0,12,200
+EMP0119,Varun Verma,varun.verma119@example.com,9234436740,Support,Senior Support Associate,2025-12-31,,active,36000,12,10,0,12,200
+EMP0120,Girish Kumar,girish.kumar120@example.com,9522820798,HR,HR Manager,2025-02-10,,active,36000,12,10,1000,12,200
+EMP0121,Abhishek Naidu,abhishek.naidu121@example.com,9800809585,Marketing,Marketing Associate,2024-09-22,,active,49500,12,10,2000,12,200
+EMP0122,Asha Sharma,asha.sharma122@example.com,9989220134,Finance,Finance Manager,2025-02-20,2026-06-23,inactive,38500,12,10,1500,12,200
+EMP0123,Kiran Kumar,kiran.kumar123@example.com,9446208162,Support,Senior Support Associate,2024-10-23,,active,31500,12,10,1500,12,200
+EMP0124,Arjun Reddy,arjun.reddy124@example.com,9792026018,Support,Senior Support Associate,2024-04-17,,active,32500,12,10,0,12,200
+EMP0125,Karthik Bose,karthik.bose125@example.com,9525591885,Operations,Operations Executive,2023-12-04,,active,38500,12,10,2000,12,200
+EMP0126,Ganesh Naidu,ganesh.naidu126@example.com,9215171485,Engineering,DevOps Engineer,2024-07-05,,active,53000,12,10,1000,12,200
+EMP0127,Prakash Verma,prakash.verma127@example.com,9221872982,Support,Support Associate,2023-06-08,,active,35500,12,10,1500,12,200
+EMP0128,Rohan Bose,rohan.bose128@example.com,9164639926,HR,HR Executive,2026-03-05,,active,53000,12,10,0,12,200
+EMP0129,Bhavana Gowda,bhavana.gowda129@example.com,9655080560,Sales,Sales Executive,2024-09-01,,active,34000,12,10,0,12,200
+EMP0130,Bhavana Naidu,bhavana.naidu130@example.com,9761616483,Engineering,Software Engineer,2024-01-30,,active,65500,12,10,1000,12,200
+EMP0131,Preethi Hegde,preethi.hegde131@example.com,9947384969,Finance,Accounts Executive,2023-06-24,,active,42000,12,10,0,12,200
+EMP0132,Bhavana Bhat,bhavana.bhat132@example.com,9472211137,Engineering,Software Engineer,2024-06-20,,active,52500,12,10,1500,12,200
+EMP0133,Swathi Gowda,swathi.gowda133@example.com,9132891798,HR,Talent Acquisition Specialist,2023-12-06,,active,38500,12,10,2000,12,200
+EMP0134,Pooja Verma,pooja.verma134@example.com,9842912513,Finance,Finance Manager,2024-08-22,,active,50000,12,10,0,12,200
+EMP0135,Naveen Bose,naveen.bose135@example.com,9963826849,Engineering,QA Engineer,2023-08-27,,active,85000,12,10,0,12,200
+EMP0136,Vikram Kulkarni,vikram.kulkarni136@example.com,9164579684,Engineering,Senior Software Engineer,2024-02-25,,active,49500,12,10,1000,12,200
+EMP0137,Vikram Desai,vikram.desai137@example.com,9855290249,Marketing,Content Strategist,2025-02-18,,active,37500,12,10,2500,12,200
+EMP0138,Padma Kumar,padma.kumar138@example.com,9148687082,Sales,Sales Executive,2025-04-15,,active,32000,12,10,1500,12,200
+EMP0139,Swathi Pillai,swathi.pillai139@example.com,9352576070,Engineering,DevOps Engineer,2024-11-17,2026-06-27,inactive,82500,12,10,0,12,200
+EMP0140,Suresh Reddy,suresh.reddy140@example.com,9929667204,Sales,Senior Sales Executive,2024-11-11,,active,35500,12,10,0,12,200
+EMP0141,Ganesh Bhat,ganesh.bhat141@example.com,9639725820,Finance,Finance Manager,2024-07-08,,active,54000,12,10,0,12,200
+EMP0142,Prakash Shetty,prakash.shetty142@example.com,9136228365,Engineering,Software Engineer,2024-06-19,,active,77000,12,10,1500,12,200
+EMP0143,Swathi Reddy,swathi.reddy143@example.com,9372232252,Support,Senior Support Associate,2025-11-28,,active,36000,12,10,1500,12,200
+EMP0144,Ramya Shetty,ramya.shetty144@example.com,9558040735,Sales,Business Development Associate,2025-09-12,,active,51000,12,10,1500,12,200
+EMP0145,Deepika Gupta,deepika.gupta145@example.com,9213226316,Sales,Sales Manager,2023-05-05,,active,43500,12,10,1500,12,200
+EMP0146,Asha Desai,asha.desai146@example.com,9278028862,Operations,Operations Executive,2025-03-28,,active,38000,12,10,0,12,200
+EMP0147,Sneha Patil,sneha.patil147@example.com,9224789046,Operations,Operations Executive,2024-01-17,,active,37000,12,10,2000,12,200
+EMP0148,Ravi Shetty,ravi.shetty148@example.com,9649054433,Engineering,Engineering Manager,2023-12-17,,active,70000,12,10,0,12,200
+EMP0149,Karthik Naidu,karthik.naidu149@example.com,9426305918,Support,Senior Support Associate,2025-07-25,,active,36000,12,10,2500,12,200
+EMP0150,Sanjay Verma,sanjay.verma150@example.com,9828230644,HR,Talent Acquisition Specialist,2024-11-11,,active,38000,12,10,2000,12,200
+EMP0151,Padma Bose,padma.bose151@example.com,9309857011,Support,Support Associate,2025-02-22,,active,39500,12,10,1000,12,200
+EMP0152,Anjali Hegde,anjali.hegde152@example.com,9426282413,Sales,Business Development Associate,2024-01-23,,active,39000,12,10,0,12,200
+EMP0153,Ramya Reddy,ramya.reddy153@example.com,9817759751,HR,Talent Acquisition Specialist,2022-09-05,,active,51000,12,10,2000,12,200
+EMP0154,Preethi Nair,preethi.nair154@example.com,9451056330,Engineering,DevOps Engineer,2026-06-10,,active,49500,12,10,0,12,200
+EMP0155,Anjali Gupta,anjali.gupta155@example.com,9982739029,Sales,Senior Sales Executive,2023-03-23,,active,61000,12,10,1500,12,200
+EMP0156,Chitra Verma,chitra.verma156@example.com,9200660321,Engineering,QA Engineer,2025-05-30,,active,68500,12,10,1000,12,200
+EMP0157,Rajesh Patil,rajesh.patil157@example.com,9687418060,Marketing,Marketing Associate,2026-04-18,,active,48500,12,10,1000,12,200
+EMP0158,Divya Kumar,divya.kumar158@example.com,9386493748,Engineering,DevOps Engineer,2024-06-29,,active,88000,12,10,0,12,200
+EMP0159,Manish Bhat,manish.bhat159@example.com,9848908066,Operations,Operations Manager,2025-05-16,,active,47500,12,10,0,12,200
+EMP0160,Yamini Sharma,yamini.sharma160@example.com,9903727916,Finance,Finance Manager,2023-07-30,,active,49000,12,10,0,12,200
+EMP0161,Swathi Naidu,swathi.naidu161@example.com,9865642211,Engineering,Senior Software Engineer,2022-06-26,,active,47000,12,10,0,12,200
+EMP0162,Manish Reddy,manish.reddy162@example.com,9341571947,Operations,Operations Manager,2023-08-03,,active,49000,12,10,1000,12,200
+EMP0163,Suresh Menon,suresh.menon163@example.com,9777096022,HR,HR Manager,2025-02-15,,active,32500,12,10,1000,12,200
+EMP0164,Ganesh Pillai,ganesh.pillai164@example.com,9297270294,Finance,Finance Manager,2023-10-24,,active,46000,12,10,0,12,200
+EMP0165,Ananya Rao,ananya.rao165@example.com,9840796859,Engineering,Senior Software Engineer,2024-05-06,,active,52000,12,10,0,12,200
+EMP0166,Lakshmi Reddy,lakshmi.reddy166@example.com,9887575778,Operations,Operations Executive,2026-02-09,,active,39500,12,10,0,12,200
+EMP0167,Sowmya Gupta,sowmya.gupta167@example.com,9761252616,Engineering,QA Engineer,2024-09-19,,active,56000,12,10,2000,12,200
+EMP0168,Karthik Kulkarni,karthik.kulkarni168@example.com,9641402606,Finance,Financial Analyst,2024-07-19,,active,36000,12,10,1000,12,200
+EMP0169,Naveen Reddy,naveen.reddy169@example.com,9446832532,Finance,Accounts Executive,2024-01-03,,active,51000,12,10,0,12,200
+EMP0170,Prakash Menon,prakash.menon170@example.com,9100960718,Marketing,SEO Specialist,2023-10-29,,active,33500,12,10,1500,12,200
+EMP0171,Chitra Desai,chitra.desai171@example.com,9528482580,Engineering,Engineering Manager,2025-11-03,2026-05-14,inactive,61500,12,10,1000,12,200
+EMP0172,Prakash Joshi,prakash.joshi172@example.com,9189241273,Engineering,Senior Software Engineer,2023-10-22,,active,53500,12,10,0,12,200
+EMP0173,Sathish Kumar,sathish.kumar173@example.com,9424682817,Engineering,DevOps Engineer,2023-02-18,,active,57000,12,10,0,12,200
+EMP0174,Meera Rao,meera.rao174@example.com,9936699957,Operations,Operations Analyst,2023-05-20,,active,51000,12,10,0,12,200
+EMP0175,Sneha Bose,sneha.bose175@example.com,9778844362,Operations,Operations Analyst,2025-05-14,,active,50000,12,10,2500,12,200
+EMP0176,Deepika Verma,deepika.verma176@example.com,9953780947,Engineering,Senior Software Engineer,2024-09-27,,active,57000,12,10,0,12,200
+EMP0177,Nisha Gupta,nisha.gupta177@example.com,9973796254,Support,Support Associate,2024-04-21,,active,33000,12,10,1000,12,200
+EMP0178,Shreya Bose,shreya.bose178@example.com,9192955130,Engineering,DevOps Engineer,2025-07-12,,active,53000,12,10,1000,12,200
+EMP0179,Padma Desai,padma.desai179@example.com,9939501656,Sales,Senior Sales Executive,2024-04-30,,active,48500,12,10,1000,12,200
+EMP0180,Ganesh Menon,ganesh.menon180@example.com,9598959120,Marketing,Content Strategist,2024-02-24,,active,47500,12,10,1000,12,200
+EMP0181,Varun Joshi,varun.joshi181@example.com,9293085074,Engineering,Senior Software Engineer,2024-09-17,,active,71000,12,10,0,12,200
+EMP0182,Padma Nair,padma.nair182@example.com,9702052892,HR,HR Manager,2023-02-12,,active,43500,12,10,1000,12,200
+EMP0183,Ramya Hegde,ramya.hegde183@example.com,9134687799,Support,Support Team Lead,2024-12-23,,active,23000,12,10,0,12,200
+EMP0184,Manoj Kulkarni,manoj.kulkarni184@example.com,9397644459,Finance,Accounts Executive,2025-07-30,,active,49500,12,10,1000,12,200
+EMP0185,Ananya Nair,ananya.nair185@example.com,9546931430,Engineering,DevOps Engineer,2024-08-28,,active,73000,12,10,2500,12,200
