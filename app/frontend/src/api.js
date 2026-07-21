@@ -1,4 +1,4 @@
-export const API_URL = 'https://payroll-analytics-dashboard.onrender.com';
+export const API_URL = import.meta.env.VITE_API_URL;
 
 export function authHeaders() {
   const token = localStorage.getItem('token');
