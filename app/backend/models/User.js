@@ -9,6 +9,5 @@ const userSchema = new mongoose.Schema({
   resetOtp: { type: String, default: null },
   resetOtpExpires: { type: Date, default: null },
 }, { timestamps: true });
-}, { timestamps: true });
 
 module.exports = mongoose.model('User', userSchema);
