@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 
 export default function Login() {
@@ -47,6 +47,8 @@ export default function Login() {
         <button type="submit" className="gradient-btn" disabled={loading}>
           {loading ? 'Signing in...' : 'Sign In'}
         </button>
+        <p className="auth-link">Don't have an account? <Link to="/signup">Sign up</Link></p>
+      <p className="auth-link"><Link to="/forgot-password">Forgot password?</Link></p>
       </form>
     </div>
   );
