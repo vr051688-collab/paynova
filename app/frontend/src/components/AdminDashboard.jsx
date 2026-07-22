@@ -9,6 +9,7 @@ const COLORS = ['#f09433', '#dc2743', '#bc1888', '#8e44ad', '#2980b9'];
 
 export default function AdminDashboard() {
   const [employees, setEmployees] = useState([]);
+  const [users, setUsers] = useState([]);
   const [deptCost, setDeptCost] = useState([]);
   const [profitStats, setProfitStats] = useState(null);
   const [performance, setPerformance] = useState([]);
@@ -18,16 +19,18 @@ export default function AdminDashboard() {
   const loadAll = async () => {
     setLoading(true);
     try {
-      const [emp, dc, ps, perf] = await Promise.all([
+      const [emp, dc, ps, perf, usr] = await Promise.all([
         apiFetch('/api/employees'),
         apiFetch('/api/dashboard/department-cost'),
         apiFetch('/api/dashboard/profit-stats'),
-        apiFetch('/api/dashboard/performance')
+        apiFetch('/api/dashboard/performance'),
+        apiFetch('/api/auth/users')
       ]);
       setEmployees(emp || []);
       setDeptCost(dc || []);
       setProfitStats(ps);
       setPerformance(perf || []);
+      setUsers(usr || []);
     } catch (err) {
       console.error(err);
     } finally {
@@ -45,6 +48,18 @@ export default function AdminDashboard() {
         body: JSON.stringify({ ...form, salary: Number(form.salary) })
       });
       setForm({ name: '', email: '', salary: '', department: '', position: '' });
+      loadAll();
+    } catch (err) {
+      alert(err.message);
+    }
+  };
+
+  const handleLinkEmployee = async (userId, employeeId) => {
+    try {
+      await apiFetch(`/api/auth/link-employee/${userId}`, {
+        method: 'PUT',
+        body: JSON.stringify({ employeeId: employeeId || null })
+      });
       loadAll();
     } catch (err) {
       alert(err.message);
@@ -136,6 +151,31 @@ export default function AdminDashboard() {
         <button type="submit" className="gradient-btn">Add</button>
       </form>
 
+      {/* Link Users to Employee Records */}
+      <section className="card form-card">
+        <h2>User Accounts</h2>
+        {users.length === 0 && <p>No signed-up users yet.</p>}
+        {users.map((u) => (
+          <div key={u._id} style={{ display: 'flex', alignItems: 'center', gap: '10px', padding: '8px 0', borderBottom: '1px solid #333', flexWrap: 'wrap' }}>
+            <div style={{ flex: 1, minWidth: '140px' }}>
+              <strong>{u.name}</strong> <span style={{ opacity: 0.7 }}>({u.email})</span>
+              <div style={{ fontSize: '0.8em', opacity: 0.7 }}>
+                {u.employeeId ? '✅ Linked' : '⚠️ Not linked'}
+              </div>
+            </div>
+            <select
+              value={u.employeeId || ''}
+              onChange={(e) => handleLinkEmployee(u._id, e.target.value)}
+            >
+              <option value="">-- No employee record --</option>
+              {employees.map((emp) => (
+                <option key={emp._id} value={emp._id}>{emp.name} ({emp.email})</option>
+              ))}
+            </select>
+          </div>
+        ))}
+      </section>
+
       {/* Employee Salaries List */}
       <section className="grid">
         {employees.length === 0 && <p>No employees yet.</p>}
@@ -151,4 +191,4 @@ export default function AdminDashboard() {
       </section>
     </div>
   );
-}
+        }
