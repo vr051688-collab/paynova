@@ -2,6 +2,7 @@ const express = require('express');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const User = require('../models/User');
+const Employee = require('../models/Employee');
 const { requireAuth, requireAdmin } = require('../middleware/auth');
 const crypto = require('crypto');
 const { sendOtpEmail } = require('../utils/mailer');
@@ -70,16 +71,55 @@ router.post('/signup', async (req, res) => {
     if (existing) return res.status(400).json({ error: 'Email already registered' });
 
     const hashed = await bcrypt.hash(password, 10);
+
+    // Auto-link: if an Employee record already exists with this email, attach it
+    const matchedEmployee = await Employee.findOne({ email: email.toLowerCase() });
+
     const user = new User({
       name,
       email: email.toLowerCase(),
       password: hashed,
       role: 'employee',
+      employeeId: matchedEmployee ? matchedEmployee._id : null,
     });
     await user.save();
 
     const token = signToken(user);
-    res.status(201).json({ token, user: { id: user._id, name: user.name, email: user.email, role: user.role } });
+    res.status(201).json({
+      token,
+      user: { id: user._id, name: user.name, email: user.email, role: user.role, employeeId: user.employeeId },
+      linked: !!matchedEmployee
+    });
+  } catch (err) {
+    res.status(400).json({ error: err.message });
+  }
+});
+
+// GET /api/auth/users  (admin only - list users, for linking to employee records)
+router.get('/users', requireAuth, requireAdmin, async (req, res) => {
+  try {
+    const users = await User.find().select('-password').sort({ createdAt: -1 });
+    res.json(users);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// PUT /api/auth/link-employee/:userId  (admin only - link/relink a user to an employee record)
+router.put('/link-employee/:userId', requireAuth, requireAdmin, async (req, res) => {
+  try {
+    const { employeeId } = req.body;
+    if (employeeId) {
+      const employee = await Employee.findById(employeeId);
+      if (!employee) return res.status(404).json({ error: 'Employee record not found' });
+    }
+    const user = await User.findByIdAndUpdate(
+      req.params.userId,
+      { employeeId: employeeId || null },
+      { new: true }
+    ).select('-password');
+    if (!user) return res.status(404).json({ error: 'User not found' });
+    res.json(user);
   } catch (err) {
     res.status(400).json({ error: err.message });
   }
@@ -124,3 +164,4 @@ router.post('/reset-password', async (req, res) => {
   }
 });
 module.exports = router;
+      
