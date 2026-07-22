@@ -16,6 +16,23 @@ function signToken(user) {
   );
 }
 
+// GET /api/auth/bootstrap-admin  (one-time, safe: only creates admin if none exists)
+router.get('/bootstrap-admin', async (req, res) => {
+  try {
+    const existingAdmin = await User.findOne({ role: 'admin' });
+    if (existingAdmin) {
+      return res.status(400).json({ error: 'An admin already exists. Bootstrap disabled.' });
+    }
+    const email = 'admin@payroll.com';
+    const password = 'Admin@123';
+    const hashed = await bcrypt.hash(password, 10);
+    const admin = await User.create({ name: 'Admin', email, password: hashed, role: 'admin' });
+    res.json({ message: 'Admin created', email, password, note: 'Please log in and change the password.' });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
 // POST /api/auth/login
 router.post('/login', async (req, res) => {
   try {
@@ -164,4 +181,3 @@ router.post('/reset-password', async (req, res) => {
   }
 });
 module.exports = router;
-      
